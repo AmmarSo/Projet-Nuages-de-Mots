@@ -1,0 +1,110 @@
+/* Dégradé de couleurs de la France */
+:root {
+  --blue: #0072c6;
+  --white: #FFFFFF;
+  --red: #EE1C25;
+}
+
+html{
+  background-image: url("https://cloudfront-eu-central-1.images.arcpublishing.com/lexpress/7TDAONOEPVBXBCFBNEE36AQ7MY.jpg");
+}
+/* Form styles */
+
+form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 24px;
+  margin-top: 90px;
+  text-align: center;
+}
+
+select {
+  font-size: 18px;
+  border: none;
+  margin-top: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+input[type="submit"] {
+  background-color: #003087;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0045b5;
+}
+
+/* Style du titre */
+h1 {
+  text-align: center;
+  color: var(--blue);
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+/* Style du résultat */
+.formulaire {
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+nav {
+  background-color: #002395; /* bleu */
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #ED2939; /* rouge */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 21%;
+}
+img{
+  width: 600px;
+  height: auto;
+}
+table{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
