@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Générateur Présidentiel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Menu Principal</a></li>
+        <li><a href="#">Histoire des Voeux</a></li>
+        <li><a href="#">A propos</a></li>
+      </ul>
+    </nav>
+    <h1>Résultat du générateur de nuage de mots</h1>
+    <div class="container">
+      <table>
+        <tr>
+          <td><img src="{{ url_for('static', filename=president_image) }}" alt="Photo du président"></td>
+          <td><img src="{{ url_for('static', filename='wordcloud.png') }}" alt="Nuage de mots"></td>
+        </tr>
+      </table>
+    </div>
+    <footer>
+      <p>Voeux de fin d'années des Présidents</p>
+    </footer>
+  </body>
+</html>

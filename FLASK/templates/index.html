@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Générateur Présidentiel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Menu Principal</a></li>
+        <li><a href="#">Histoire des Voeux</a></li>
+        <li><a href="#">A propos</a></li>
+      </ul>
+    </nav>
+    <div class="formulaire">
+      <h1>Générateur de nuage de mots</h1>
+      <form action="/generate" method="post">
+        <label for="filename">Sélectionnez un président :</label>
+        <select name="filename" id="filename">
+          <option value="Macron">Emmanuel Macron</option>
+          <option value="hollande">François Hollande</option>
+          <option value="Sarkozy">Nicolas Sarkozy</option>
+          <option value="Chirac">Jacques Chirac</option>
+          <option value="Mitterrand">François Mitterrand</option>
+          <option value="Giscard">Valéry Giscard d'Estaing</option>
+        </select>
+        <input type="submit" value="Générer">
+      </form>
+    </div>
+    <footer>
+      <p>Voeux de fin d'années des Présidents</p>
+    </footer>
+  </body>
+</html>
