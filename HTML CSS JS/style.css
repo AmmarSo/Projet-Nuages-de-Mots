@@ -1,0 +1,167 @@
+html{
+  background-image: url('https://images.rtl.fr/~c/2000v2000/rtl/www/1206402-l-elysee-nomme-onze-secretaires-d-etat-pour-completer-le-gouvernement.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(255, 255, 255, 0.932);
+}
+/* Style pour le header */
+header {
+	background-color: #1175e7;
+	color: white;
+	padding: 20px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+	font-weight: bold;
+}
+.year1{
+	background-color: aliceblue;
+}
+.year2{
+	background-color: aliceblue;
+}
+.year3{
+	background-color: aliceblue;
+}
+.year4{
+	background-color: aliceblue;
+}
+.year5{
+	background-color: aliceblue;
+}
+.year6{
+	background-color: aliceblue;
+}
+.year7{
+	background-color: aliceblue;
+}
+.year8{
+	background-color: aliceblue;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #c2bebF;
+}
+
+/* Style pour le contenu principal */
+main {
+	margin: 40px auto;
+	max-width: 800px;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #002d62;
+}
+
+h2 {
+	font-size: 2em;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #002d62;
+}
+
+p {
+	font-size: 1.6em;
+	line-height: 1.5em;
+	margin-bottom: 30px;
+	color: #ad0c0c;
+	background-color: aliceblue;
+}
+#desc1{
+	background-color: aliceblue;
+}
+.FM{
+	background-color: rgb(255, 240, 240);
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+a {
+	color: #002d62;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c2bebF;
+}
+
+.slider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+}
+
+.slider img {
+	max-width: 100%;
+}
+
+.slider-content {
+	width: 60%;
+	height: 80%;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.slider h2 {
+	margin-bottom: 20px;
+	font-size: 2em;
+	color: #002d62;
+}
+
+.slider p {
+	margin-bottom: 30px;
+	font-size: 1.2em;
+	color: #333;
+}
+
+.slider button {
+	background-color: #c2bebF;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 1.2em;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.slider button:hover {
+	background-color: #002d62;
+}
+.mySlides img{
+  width: 300%;
+}

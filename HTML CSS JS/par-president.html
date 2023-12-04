@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Nuages de mots des présidents de la cinquième république</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		.container {
+			width: 100%;
+			display: table;
+		}
+		.image {
+			display: table-cell;
+			vertical-align: middle;
+			width: 50%;
+			padding-right: 20px;
+			box-sizing: border-box;
+		}
+		.slideshow {
+			display: table-cell;
+			vertical-align: middle;
+			width: 50%;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="#">Nuages de mots</a></li>
+				<li><a href="tous.html">Tous</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+    <!-- Charles De Gaulle -->
+		<div> <h1 class ="FM">Charles De Gaulle</h1></div>
+    <div class="container">
+			<div class="image">
+				<img src="https://www.elysee.fr/cdn-cgi/image/width=760%2Cheight=1145/images/default/0001/02/2b14cc268d0be2c7c7605bca866fea0c24d55d09.jpeg" alt="Image" style="width: 100%;">
+			</div>
+			<div class="slideshow">
+        <div class="w3-content w3-display-container">
+          <p class ="FM"><h2 class ="FM">Prononcés en : </h2><h2 class="year">1960</h2></p>
+          <img class="mySlides" src="IMAGE/De Gaulle/1960.png" style="width:150%">
+          <img class="mySlides" src="IMAGE/De Gaulle/1961.png" style="width:150%">
+          <img class="mySlides" src="IMAGE/De Gaulle/1962.png" style="width:150%">
+          <img class="mySlides" src="IMAGE/De Gaulle/1963.png" style="width:150%">
+          <img class="mySlides" src="IMAGE/De Gaulle/1964.png" style="width:150%">
+          <img class="mySlides" src="IMAGE/De Gaulle/1965.png" style="width:150%">
+          <img class="mySlides" src="IMAGE/De Gaulle/1966.png" style="width:150%">
+          <img class="mySlides" src="IMAGE/De Gaulle/1967.png" style="width:150%">
+          <img class="mySlides" src="IMAGE/De Gaulle/1968.png" style="width:150%">
+        
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+      
+        <style>
+          .year {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+          }
+        </style>
+      
+        <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+      
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+      
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+            var year = document.getElementsByClassName("year")[0];
+            year.innerHTML = x[slideIndex-1].getAttribute("src").split("/")[2].split(".")[0];
+          }
+        </script>
+      </div>      
+		</div>
+    <div> <h1 class ="FM">Georges Pompidou</h1></div>
+    <!-- George Pompidou -->
+    <div class="container">
+      <div class="image">
+          <img src="https://www.elysee.fr/cdn-cgi/image/width=760%2Cheight=1145/images/default/0001/02/037d248e98e457983659a7626c259e9b6f762bb6.jpeg" alt="Image" style="width: 100%;">
+      </div>
+      <div class="slideshow">
+  <div class="w3-content w3-display-container">
+    <p class ="FM"><h2 class ="FM">Prononcés en : </h2><h2 class="year1">1969</h2></p>
+    <img class="mySlides1" src="IMAGE/Pompidou/1969.png" style="width:150%">
+    <img class="mySlides1" src="IMAGE/Pompidou/1970.png" style="width:150%">
+    <img class="mySlides1" src="IMAGE/Pompidou/1971.png" style="width:150%">
+    <img class="mySlides1" src="IMAGE/Pompidou/1972.png" style="width:150%">
+    <img class="mySlides1" src="IMAGE/Pompidou/1973.png" style="width:150%">
+  
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs1(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs1(1)">&#10095;</button>
+  </div>
+  
+  <style>
+    .year1 {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 20px;
+    }
+  </style>
+  
+  <script>
+    var slideIndex = 1;
+    showDivs1(slideIndex);
+  
+    function plusDivs1(n) {
+      showDivs1(slideIndex += n);
+    }
+  
+    function showDivs1(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides1");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+  
+      var year1 = document.getElementsByClassName("year1")[0];
+      year1.innerHTML = x[slideIndex-1].getAttribute("src").split("/")[2].split(".")[0];
+    }
+  </script>
+  </div>      
+  </div>
+  <!-- Valery Giscard D'Estaing -->
+  <div> <h1 class ="FM">Valery Giscard D'Estaing</h1></div>
+<div class="container">
+  <div class="image">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Val%C3%A9ry_Giscard_d%27Estaing_%281975%29.jpg" alt="Image" style="width: 100%;">
+  </div>
+  <div class="slideshow">
+<div class="w3-content w3-display-container">
+  <p class ="FM"><h2 class ="FM">Prononcés en : </h2><h2 class="year2">1974</h2></p>
+<img class="mySlides2" src="IMAGE/Giscard/1974.png" style="width:150%">
+<img class="mySlides2" src="IMAGE/Giscard/1975.png" style="width:150%">
+<img class="mySlides2" src="IMAGE/Giscard/1976.png" style="width:150%">
+<img class="mySlides2" src="IMAGE/Giscard/1977.png" style="width:150%">
+<img class="mySlides2" src="IMAGE/Giscard/1978.png" style="width:150%">
+<img class="mySlides2" src="IMAGE/Giscard/1979.png" style="width:150%">
+<img class="mySlides2" src="IMAGE/Giscard/1980.png" style="width:150%">
+
+<button class="w3-button w3-black w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
+<button class="w3-button w3-black w3-display-right" onclick="plusDivs2(1)">&#10095;</button>
+</div>
+
+<style>
+.year2 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+</style>
+
+<script>
+var slideIndex = 1;
+showDiv2(slideIndex);
+
+function plusDivs2(n) {
+  showDiv2(slideIndex += n);
+}
+
+function showDiv2(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+  var year2 = document.getElementsByClassName("year2")[0];
+  year2.innerHTML = x[slideIndex-1].getAttribute("src").split("/")[2].split(".")[0];
+}
+</script>
+</div>      
+</div>
+<!-- François Mitterrand -->
+<div> <h1 class ="FM">François Mitterrand</h1></div>
+<div class="container">
+  <div class="image">
+      <img src="https://www.elysee.fr/cdn-cgi/image/width=760%2Cheight=1145/images/default/0001/02/90a988df4304c815dda1fa77d2733504c70cf56a.jpeg" alt="Image" style="width: 100%;">
+  </div>
+  <div class="slideshow">
+<div class="w3-content w3-display-container">
+  <p class ="FM"><h2 class ="FM">Prononcés en : </h2><h2 class="year3">1974</h2></p>
+<img class="mySlides3" src="IMAGE/Mitterrand/1981.png" style="width:150%">
+<img class="mySlides3" src="IMAGE/Mitterrand/1982.png" style="width:150%">
+<img class="mySlides3" src="IMAGE/Mitterrand/1983.png" style="width:150%">
+<img class="mySlides3" src="IMAGE/Mitterrand/1984.png" style="width:150%">
+<img class="mySlides3" src="IMAGE/Mitterrand/1985.png" style="width:150%">
+<img class="mySlides3" src="IMAGE/Mitterrand/1986.png" style="width:150%">
+<img class="mySlides3" src="IMAGE/Mitterrand/1987.png" style="width:150%">
+<img class="mySlides3" src="IMAGE/Mitterrand/1988.png" style="width:150%">
+<img class="mySlides3" src="IMAGE/Mitterrand/1989.png" style="width:150%">
+<img class="mySlides3" src="IMAGE/Mitterrand/1990.png" style="width:150%">
+<img class="mySlides3" src="IMAGE/Mitterrand/1991.png" style="width:150%">
+<img class="mySlides3" src="IMAGE/Mitterrand/1992.png" style="width:150%">
+<img class="mySlides3" src="IMAGE/Mitterrand/1993.png" style="width:150%">
+<img class="mySlides3" src="IMAGE/Mitterrand/1994.png" style="width:150%">
+
+<button class="w3-button w3-black w3-display-left" onclick="plusDivs3(-1)">&#10094;</button>
+<button class="w3-button w3-black w3-display-right" onclick="plusDivs3(1)">&#10095;</button>
+</div>
+
+<style>
+.year3 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+</style>
+
+<script>
+var slideIndex = 1;
+showDiv3(slideIndex);
+
+function plusDivs3(n) {
+  showDiv3(slideIndex += n);
+}
+
+function showDiv3(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides3");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+  var year3 = document.getElementsByClassName("year3")[0];
+  year3.innerHTML = x[slideIndex-1].getAttribute("src").split("/")[2].split(".")[0];
+}
+</script>
+</div>      
+</div>
+<!-- Jaques Chirac-->
+<div> <h1 class ="FM">Jaques Chirac</h1></div>
+<div class="container">
+  <div class="image">
+      <img src="https://www.elysee.fr/cdn-cgi/image/width=760%2Cheight=1145/images/default/0001/02/c3467114052fd21e0ba3768cf216fd1bad164852.jpeg" alt="Image" style="width: 100%;">
+  </div>
+  <div class="slideshow">
+<div class="w3-content w3-display-container">
+  <p class ="FM"><h2 class ="FM">Prononcés en : </h2><h2 class="year5">1974</h2></p>
+<img class="mySlides5" src="IMAGE/Chirac/1995.png" style="width:150%">
+<img class="mySlides5" src="IMAGE/Chirac/1996.png" style="width:150%">
+<img class="mySlides5" src="IMAGE/Chirac/1997.png" style="width:150%">
+<img class="mySlides5" src="IMAGE/Chirac/1998.png" style="width:150%">
+<img class="mySlides5" src="IMAGE/Chirac/1999.png" style="width:150%">
+<img class="mySlides5" src="IMAGE/Chirac/2000.png" style="width:150%">
+<img class="mySlides5" src="IMAGE/Chirac/2001.png" style="width:150%">
+<img class="mySlides5" src="IMAGE/Chirac/2002.png" style="width:150%">
+<img class="mySlides5" src="IMAGE/Chirac/2003.png" style="width:150%">
+<img class="mySlides5" src="IMAGE/Chirac/2004.png" style="width:150%">
+<img class="mySlides5" src="IMAGE/Chirac/2005.png" style="width:150%">
+<img class="mySlides5" src="IMAGE/Chirac/2006.png" style="width:150%">
+
+<button class="w3-button w3-black w3-display-left" onclick="plusDivs5(-1)">&#10094;</button>
+<button class="w3-button w3-black w3-display-right" onclick="plusDivs5(1)">&#10095;</button>
+</div>
+
+<style>
+.year5 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+</style>
+
+<script>
+var slideIndex = 1;
+showDiv5(slideIndex);
+
+function plusDivs5(n) {
+  showDiv5(slideIndex += n);
+}
+
+function showDiv5(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides5");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+  var year5 = document.getElementsByClassName("year5")[0];
+  year5.innerHTML = x[slideIndex-1].getAttribute("src").split("/")[2].split(".")[0];
+}
+</script>
+</div>      
+</div>
+<!-- Nicolas Sarkozy-->
+<div> <h1 class ="FM">Nicolas Sarkozy</h1></div>
+<div class="container">
+    <div class="image">
+        <img src="https://www.elysee.fr/cdn-cgi/image/width=760%2Cheight=1145/images/default/0001/02/c1a4affe262217c14e789c993e48798e2f7870f4.jpeg" alt="Image" style="width: 100%;">
+    </div>
+    <div class="slideshow">
+<div class="w3-content w3-display-container">
+    <p class ="FM"><h2 class ="FM">Prononcés en : </h2><h2 class="year6">2007</h2></p>
+  <img class="mySlides6" src="IMAGE/Sarkozy/2007.png" style="width:150%">
+  <img class="mySlides6" src="IMAGE/Sarkozy/2008.png" style="width:150%">
+  <img class="mySlides6" src="IMAGE/Sarkozy/2009.png" style="width:150%">
+  <img class="mySlides6" src="IMAGE/Sarkozy/2010.png" style="width:150%">
+  <img class="mySlides6" src="IMAGE/Sarkozy/2011.png" style="width:150%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs6(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs6(1)">&#10095;</button>
+</div>
+
+<style>
+  .year6 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+</style>
+
+<script>
+  var slideIndex = 1;
+  showDiv6(slideIndex);
+
+  function plusDivs6(n) {
+    showDiv6(slideIndex += n);
+  }
+
+  function showDiv6(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides6");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+    var year6 = document.getElementsByClassName("year6")[0];
+    year6.innerHTML = x[slideIndex-1].getAttribute("src").split("/")[2].split(".")[0];
+  }
+</script>
+</div>      
+</div>
+<!-- François Hollande-->
+<div> <h1 class ="FM">François Hollande</h1></div>
+<div class="container">
+    <div class="image">
+        <img src="https://www.elysee.fr/cdn-cgi/image/width=760%2Cheight=1145/images/default/0001/02/162118f06b1cb523fc701bc9af3786e10dd916f2.jpeg" alt="Image" style="width: 100%;">
+    </div>
+    <div class="slideshow">
+<div class="w3-content w3-display-container">
+    <p class ="FM"><h2 class ="FM">Prononcés en :</h2><h2 class="year7">2012</h2></p>
+  <img class="mySlides7" src="IMAGE/Hollande/2012.png" style="width:150%">
+  <img class="mySlides7" src="IMAGE/Hollande/2013.png" style="width:150%">
+  <img class="mySlides7" src="IMAGE/Hollande/2014.png" style="width:150%">
+  <img class="mySlides7" src="IMAGE/Hollande/2015.png" style="width:150%">
+  <img class="mySlides7" src="IMAGE/Hollande/2016.png" style="width:150%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs7(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs7(1)">&#10095;</button>
+</div>
+
+<style>
+  .year7 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+</style>
+
+<script>
+  var slideIndex = 1;
+  showDiv7(slideIndex);
+
+  function plusDivs7(n) {
+    showDiv7(slideIndex += n);
+  }
+
+  function showDiv7(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides7");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+    var year7 = document.getElementsByClassName("year7")[0];
+    year7.innerHTML = x[slideIndex-1].getAttribute("src").split("/")[2].split(".")[0];
+  }
+</script>
+</div>      
+</div>
+<!-- Emmanuel Macron-->
+<div> <h1 class ="FM">Emmanuel Macron</h1></div>
+<div class="container">
+    <div class="image">
+        <img src="https://www.elysee.fr/cdn-cgi/image/width=760%2Cheight=1145/images/default/0001/13/22e85bb25185f2f19748178a2f46713c11a32913.jpg" alt="Image" style="width: 100%;">
+    </div>
+    <div class="slideshow">
+<div class="w3-content w3-display-container">
+    <p class ="FM"><h2 class ="FM">Prononcés en :</h2><h2 class="year8">2017</h2></p>
+  <img class="mySlides8" src="IMAGE/Macron/2017.png" style="width:150%">
+  <img class="mySlides8" src="IMAGE/Macron/2018.png" style="width:150%">
+  <img class="mySlides8" src="IMAGE/Macron/2019.png" style="width:150%">
+  <img class="mySlides8" src="IMAGE/Macron/2020.png" style="width:150%">
+  <img class="mySlides8" src="IMAGE/Macron/2021.png" style="width:150%">
+  <img class="mySlides8" src="IMAGE/Macron/2022.png" style="width:150%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs8(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs8(1)">&#10095;</button>
+</div>
+
+<style>
+  .year8 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+</style>
+
+<script>
+  var slideIndex = 1;
+  showDiv8(slideIndex);
+
+  function plusDivs8(n) {
+    showDiv8(slideIndex += n);
+  }
+
+  function showDiv8(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides8");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+    var year8 = document.getElementsByClassName("year8")[0];
+    year8.innerHTML = x[slideIndex-1].getAttribute("src").split("/")[2].split(".")[0];
+  }
+</script>
+</div>      
+</div>
+	</main>
+</body>
+</html>
